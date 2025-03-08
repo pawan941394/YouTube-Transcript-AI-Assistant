@@ -23,8 +23,8 @@
 Try the tool online: [Launch App](#) *(Add your deployment link when available)*
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/username/repo-name/main/screenshots/demo.gif" width="600" alt="App Demo">
-  <br><i>👆 Demo GIF (Add your own when available)</i>
+  <img src="screenshots/maininterfaceimage.png" width="800" alt="App Demo">
+  <br><i>👆 Main interface of YouTube Transcript Extractor</i>
 </p>
 
 ## 🌟 Features
@@ -84,17 +84,23 @@ streamlit run streamlit_app.py
 <div align="center">
 <table>
   <tr>
-    <td><img src="![maininterfaceimage](https://github.com/user-attachments/assets/2114d04f-0d49-4f3b-9c35-e75690f9eb5c)" alt="Screenshot 2" width="100%"/></td>
-    <td><img src="https://github.com/yourusername/repo-name/raw/main/screenshots/screenshot2.png" alt="Screenshot 2" width="100%"/></td>
+    <td width="50%">
+      <img src="screenshots/maininterfaceimage.png" alt="Main Interface" width="100%"/>
+      <p align="center"><i>Main interface - Transcript extraction</i></p>
+    </td>
+    <td width="50%">
+      <img src="screenshots/chatimag.png" alt="AI Chat Interface" width="100%"/>
+      <p align="center"><i>AI Chat with transcript content</i></p>
+    </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/yourusername/repo-name/raw/main/screenshots/screenshot3.png" alt="Screenshot 3" width="100%"/></td>
-    <td><img src="https://github.com/yourusername/repo-name/raw/main/screenshots/screenshot4.png" alt="Screenshot 4" width="100%"/></td>
+    <td colspan="2">
+      <img src="screenshots/about.png" alt="About Section" width="100%"/>
+      <p align="center"><i>About section with creator information</i></p>
+    </td>
   </tr>
 </table>
 </div>
-
-*Note: Replace the placeholder images with actual screenshots of your application*
 
 ## 🤖 AI Chat Feature
 
@@ -109,7 +115,7 @@ The AI chat feature uses an Ollama-hosted LLM to answer questions based on the v
 - 🔄 Get key points and timestamps from long videos
 </td>
 <td width="40%">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXBxNXRwZG12MGV1cGw0dHYyMDc5OHhjZ2Ztamt3ajA5ZjRyOWYzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7buirYcmV5nSwIRW/giphy.gif" width="240" alt="Chat Animation">
+<img src="screenshots/chatimag.png" width="100%" alt="Chat Feature Screenshot">
 </td>
 </tr>
 </table>
@@ -132,6 +138,10 @@ youtube-transcript-extractor/
 ├── streamlit_app.py         # Streamlit web interface
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
+├── screenshots/             # Application screenshots
+│   ├── maininterfaceimage.png  # Main interface screenshot
+│   ├── chatimag.png         # Chat interface screenshot
+│   └── about.png            # About section screenshot
 └── LICENSE                  # MIT License
 ```
 
