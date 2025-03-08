@@ -83,7 +83,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Constants for Ollama API
-OLLAMA_API_URL = "https://sunny-gerri-finsocialdigitalsystem-d9b385fa.koyeb.app/api/chat"
+OLLAMA_API_URL = "{your ollama url}/api/chat"
 OLLAMA_MODEL = "llama3.2:latest"
 
 # Channel information
