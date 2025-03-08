@@ -165,8 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <tr>
     <td width="150" align="center">
       <a href="https://www.youtube.com/@Pawankumar-py4tk">
-        <img src="![image](https://github.com/user-attachments/assets/2ad134e8-6839-4e1b-a78e-467ce79de828)
-" width="100" style="border-radius:50%">
+        <img src="screenshots/youtubelogo.jpg" width="100" style="border-radius:50%">
       </a>
     </td>
     <td>
