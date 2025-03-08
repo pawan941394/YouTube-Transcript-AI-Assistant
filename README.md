@@ -84,7 +84,6 @@ streamlit run streamlit_app.py
 <div align="center">
 <table>
   <tr>
-
     <td><img src="![maininterfaceimage](https://github.com/user-attachments/assets/2114d04f-0d49-4f3b-9c35-e75690f9eb5c)" alt="Screenshot 2" width="100%"/></td>
     <td><img src="https://github.com/yourusername/repo-name/raw/main/screenshots/screenshot2.png" alt="Screenshot 2" width="100%"/></td>
   </tr>
