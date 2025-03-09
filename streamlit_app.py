@@ -174,10 +174,8 @@ def query_ollama(prompt, transcript, history=None):
 Question: {prompt}
 
 Transcript:
-{transcript[:6000]}
+{transcript}
 """
-    if len(transcript) > 6000:
-        current_query += "\n[Transcript was truncated due to length]"
 
     try:
         # Create payload with minimal history
